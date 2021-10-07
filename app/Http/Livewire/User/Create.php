@@ -16,7 +16,7 @@ class Create extends Component
       'name' => 'required|min:3',
       'email' => 'required|email',
       'password' => 'required|min:3',
-    ]
+    ];
 
     public function render()
     {
